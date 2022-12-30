@@ -1,0 +1,344 @@
+/* Reset */
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      outline: 0;
+      text-decoration: none;
+}
+
+html {
+      font-family: 'Prosto One', cursive;
+      font-size: 62.5%;
+}
+
+body {
+      background: linear-gradient(to right, #9b9b9b9f, #e6e6e6);
+}
+
+/* -------------------------------- HEADER -------------------------------- */
+header {
+      width: 100%;
+      height: 100px;
+}
+
+.content-header {
+      max-width: 1140px;
+      height: 100%;
+      margin: auto;
+      padding: 0 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.content-header .logo a {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+}
+
+.content-header .logo a h1 {
+      font-size: 3rem;
+      color: rgb(255, 255, 255);
+      letter-spacing: 1rem;
+      font-weight: 100;
+}
+
+.header-title h2 {
+      font-size: 2rem;
+      color: #343A40;
+      letter-spacing: 0.5rem;
+      text-transform: uppercase;
+}
+
+
+/* -------------------------------- MAIN -------------------------------- */
+
+.content-main {
+      max-width: 1140px;
+      margin: auto;
+      padding: 0 10px;
+      display: flex;
+}
+
+
+
+/* -------------------------------- MAIN-LEFT -------------------------------- */
+.main-left {
+      flex: 2;
+}
+
+.left-conteudo {
+      height: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.left-textarea {
+      width: 637px;
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 30px 0;
+}
+
+.left-textarea textarea {
+      width: 100%;
+      height: 450px;
+      resize: none;
+      border: none;
+      color: #c2c6ca;
+      font-size: 1.6rem;
+      color: #343A40;
+      font-weight: bold;
+      letter-spacing: 0.3rem;
+      background-color: transparent;
+}
+
+.left-textarea textarea::placeholder {
+      text-align: center;
+      text-transform: uppercase;
+      color: #9c9c9c;
+      font-weight: bold;
+}
+
+.main-left-btn {
+      width: 100%;
+      display: flexbox;
+      align-items: center;
+}
+
+.main-left-btn input {
+      width: 310px;
+      border-radius: 24px;
+      background-color: #0A3871;
+      border: 2px solid #0A3871;
+      font-size: 1.6rem;
+      font-weight: bold;
+      padding: 15px;
+      color: #fff;
+      cursor: pointer;
+      transition: all 450ms ease-in-out;
+}
+
+.main-left-btn input:hover {
+      background-color: transparent;
+      color: #0A3871;
+}
+
+.main-left-btn #btnCript {
+      margin-right: 13px;
+}
+
+.main-left-btn p {
+     font-size: 1.3rem; 
+     margin: 0  0 10px;
+}
+
+.main-left-btn i {
+      font-size: 1.6rem;
+      margin-right: 3px;
+}
+
+
+
+/* -------------------------------- MAIN-RIGHT -------------------------------- */
+.main-right {
+      flex: 1;
+}
+
+.right-conteudo {
+      width: 400px;
+      height: 600px;
+      padding: 0 15px;
+      border-radius: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+      box-shadow: 0px 0px 10px #343A40;
+}
+
+.right-mensagem h2 {
+      font-size: 2.4rem;
+      text-align: center;
+      color: #343A40;
+      padding: 15px 0;      
+}
+
+.right-mensagem p {
+      font-size: 1.6rem;
+      text-align: center;
+      color: #495057;
+}
+
+.right-texto {
+      display: 1;
+}
+
+.right-textarea {
+      width: 336px;
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 30px 0;
+}
+
+.right-textarea textarea {
+      height: 450px;
+      background-color: transparent;
+      resize: none;
+      border: none;
+      color: #343A40;
+      font-weight: bold;
+      font-size: 1.6rem;
+      letter-spacing: 0.3rem;
+}
+
+.right-textarea input {
+      width: 100%;
+      padding: 15px;
+      border-radius: 24px;
+      background-color: #0A3871;
+      border: 2px solid #0A3871;
+      font-size: 1.6rem;
+      color: #fff;
+      cursor: pointer;
+      font-weight: bold;
+      transition: all 450ms ease-in-out;
+}
+
+.right-textarea input:hover {
+      background-color: transparent;
+      color: #0A3871;
+}
+
+
+/* -------------------------------- FOOTER -------------------------------- */
+footer {
+      width: 100%;
+      height: 100px;
+}
+
+.content-footer {
+      max-width: 1140px;
+      height: 100%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+
+.footer-text h2 {
+      font-size: 1.3rem;
+      color: #343A40;
+      margin: 10px;
+}
+
+.content-footer .footer-ms a i {
+      font-size: 2.5rem;
+      color: #343A40;
+      padding: 10px;
+      transition: all 450ms ease-in-out;
+}
+
+.content-footer .footer-ms a i:hover {
+      background-color: #343A40;
+      color: #fff;
+      border-radius: 100%;
+}
+
+
+/* -------------------------------- RESPONSIVIDADE -------------------------------- */
+@media (max-width: 768px) {
+      .content-main {
+            flex-direction: column;
+      }
+
+      .left-conteudo {
+            height: auto;
+      }
+      
+
+      .left-textarea {
+            height: auto;
+      }
+
+      .left-textarea textarea {
+            height: 300px;
+      }
+
+      .main-right {
+            width: auto;
+      }
+
+      .right-conteudo {
+            width: 100%;
+            height: 400px;
+            padding: 32px;
+      }
+
+      .right-mensagem img {
+            display: none;
+      }
+
+      .right-textarea {
+            width: 100%;
+            height: 395px;
+      }
+
+      .right-textarea textarea {
+            height: 100%;
+            margin-bottom: 15px;
+      }
+
+      @media screen and (max-width: 375px) {
+            .content-header {
+                  flex-wrap: wrap;
+                  padding: 10px 0 0 10px;
+            }
+
+            .header-title h2 {
+                  margin-top: 10px;
+            }
+
+            .left-textarea textarea {
+                  height: 450px;
+            }
+
+            .main-left-btn {
+                  display: block;
+            }
+
+            .main-left-btn input {
+                  width: 100%;
+            }
+
+            .main-left-btn #btnCript {
+                  margin-bottom: 10px;
+            }
+
+            .right-conteudo{
+                  height: 720px;  
+                  
+                  background-color: #0A3871;
+            }
+
+            .right-textarea {
+                  height: 100%;
+
+                  background-color: blueviolet;
+            }
+
+            .right-textarea textarea {
+                  height: 100%;
+                  background-color: brown;
+            }
+      }
+}
