@@ -1,5 +1,13 @@
 # Codificador-Decodificador
 
+<h1>Descrição</h1>
+<br>
+<p>
+ Esse projeto foi desenvolvido no curso de lógica de programação javascript pela Alura + Oracle-One, para desenvolver técnicas e 
+ aprimorar os conhecimentos adiqueridos no curso.
+ Foi utilizado para desenvolver esse projeto as seguintes tecnologias: HTML, CSS, JAVASCRIPT.
+</p>
+
  <a href="https://jesiel-silva.github.io/Codificador-Decodificador/" target="_blank">Acesse e teste o projeto Aqui...</a>
 
 <div>
